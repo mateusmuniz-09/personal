@@ -417,13 +417,16 @@ form textarea {
     resize: none;
     max-height: 200px;
 }
-form .btn-enviar input:hover{
+form .btn-enviar:hover{
     box-shadow: 0px 0px 8px #e63946;
     transform: scale(1.05);
 }
 
-form .btn-enviar input{
-    width: 120px;
+form .btn-enviar{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
     background-color: #e63946;
     color: #fff;
     cursor: pointer;
@@ -431,6 +434,12 @@ form .btn-enviar input{
     margin-top: 20px;
     display: flex;
     margin: auto;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+form label{
+    color: #fff;
 }
 
 /* ////////////////////FIM SECÃO FORMULARIO ///////////// */
