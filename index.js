@@ -6,7 +6,7 @@ document
     const formData = new FormData(this);
     const formObject = Object.fromEntries(formData);
 
-    const response = await fetch("https://personal-zi4o.onrender.com", {
+    const response = await fetch("https://servidor-node-tan.vercel.app/send", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formObject),
