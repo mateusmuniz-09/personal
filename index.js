@@ -6,7 +6,7 @@ document
     const formData = new FormData(this);
     const formObject = Object.fromEntries(formData);
 
-    const response = await fetch("http://localhost:3000/send", {
+    const response = await fetch("https://personal-zi4o.onrender.com/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formObject),
