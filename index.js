@@ -17,4 +17,5 @@ document
 
     const result = await response.json();
     alert(result.message);
+    this.reset();
   });
